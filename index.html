@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8" />
+        <title>Dashboard | HIPMI EXPO 2022</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    
+    <body>
+
+    <!-- <body data-layout="horizontal" data-topbar="colored"> -->
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            
+            <header id="page-topbar">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box">
+                            <a href="index.html" class="logo logo-dark">
+                                <span class="logo-sm">
+                                    <img src="assets/images/logo-sm.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo-dark.png" alt="" height="20">
+                                </span>
+                            </a>
+
+                            <a href="index.html" class="logo logo-light">
+                                <span class="logo-sm">
+                                    <img src="assets/images/logo-sm.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo-light.png" alt="" height="20">
+                                </span>
+                            </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect vertical-menu-btn">
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+
+                        <!-- App Search-->
+                        <form class="app-search d-none d-lg-block">
+                            <div class="position-relative">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="uil-search"></span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="d-flex">
+
+                        <div class="dropdown d-inline-block d-lg-none ms-2">
+                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="uil-search"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                                aria-labelledby="page-header-search-dropdown">
+                    
+                                <form class="p-3">
+                                    <div class="m-0">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- notification -->
+                        <!-- <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="uil-bell"></i>
+                                <span class="badge bg-danger rounded-pill">3</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                                aria-labelledby="page-header-notifications-dropdown">
+                                <div class="p-3">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <h5 class="m-0 font-size-16"> Notifications </h5>
+                                        </div>
+                                        <div class="col-auto">
+                                            <a href="#!" class="small"> Mark all as read</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-simplebar style="max-height: 230px;">
+                                    <a href="" class="text-reset notification-item">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0 me-3">
+                                                <div class="avatar-xs">
+                                                    <span class="avatar-title bg-primary rounded-circle font-size-16">
+                                                        <i class="uil-shopping-basket"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Your order is placed</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1">If several languages coalesce the grammar</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="text-reset notification-item">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0 me-3">
+                                                <img src="assets/images/users/avatar-3.jpg" class="rounded-circle avatar-xs" alt="user-pic">
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">James Lemire</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1">It will seem like simplified English.</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="" class="text-reset notification-item">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0 me-3">
+                                                <div class="avatar-xs">
+                                                    <span class="avatar-title bg-success rounded-circle font-size-16">
+                                                        <i class="uil-truck"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Your item is shipped</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1">If several languages coalesce the grammar</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="text-reset notification-item">
+                                        <div class="d-flex align-items-start">
+                                            <div class="flex-shrink-0 me-3">
+                                                <img src="assets/images/users/avatar-4.png" class="rounded-circle avatar-xs" alt="user-pic">
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Salena Layfield</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1">As a skeptical Cambridge friend of mine occidental.</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="p-2 border-top">
+                                    <div class="d-grid">
+                                        <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
+                                            <i class="uil-arrow-circle-right me-1"></i> View More..
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-4.png"
+                                    alt="Header Avatar">
+                                <span class="d-none d-xl-inline-block ms-1 fw-medium font-size-15">Marcus</span>
+                                <i class="uil-angle-down d-none d-xl-inline-block font-size-15"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <!-- item-->
+                                <a class="dropdown-item" href="#"><i class="uil uil-user-circle font-size-18 align-middle text-muted me-1"></i> <span class="align-middle">View Profile</span></a>
+                                <a class="dropdown-item" href="#"><i class="uil uil-wallet font-size-18 align-middle me-1 text-muted"></i> <span class="align-middle">My Wallet</span></a>
+                                <a class="dropdown-item d-block" href="#"><i class="uil uil-cog font-size-18 align-middle me-1 text-muted"></i> <span class="align-middle">Settings</span> <span class="badge bg-soft-success rounded-pill mt-1 ms-2">03</span></a>
+                                <a class="dropdown-item" href="#"><i class="uil uil-lock-alt font-size-18 align-middle me-1 text-muted"></i> <span class="align-middle">Lock screen</span></a>
+                                <a class="dropdown-item" href="#"><i class="uil uil-sign-out-alt font-size-18 align-middle me-1 text-muted"></i> <span class="align-middle">Sign out</span></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </header>
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="vertical-menu">
+
+                <!-- LOGO -->
+                <div class="navbar-brand-box">
+                    <a href="index.html" class="logo logo-dark">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-dark.png" alt="" height="20">
+                        </span>
+                    </a>
+
+                    <a href="index.html" class="logo logo-light">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-light.png" alt="" height="20">
+                        </span>
+                    </a>
+                </div>
+
+                <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect vertical-menu-btn">
+                    <i class="fa fa-fw fa-bars"></i>
+                </button>
+
+                <div data-simplebar class="sidebar-menu-scroll">
+
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+                        <!-- Left Menu Start -->
+                        <ul class="metismenu list-unstyled" id="side-menu">
+                            <li class="menu-title">Menu</li>
+
+                            <li>
+                                <a href="index.html">
+                                    <i class="uil-home-alt"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+
+                            <li class="menu-title">Apps</li>
+                            <li>
+                                <a href="affiliate.html" class="waves-effect">
+                                    <i class="uil-share-alt"></i>
+                                    <span>Afiliasi</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="withdraw.html" class="waves-effect">
+                                    <i class="uil-invoice"></i><span class="badge rounded-pill bg-warning float-end">01</span>
+                                    <span>Withdraw</span>
+                                </a>
+                            </li>
+                
+
+                        </ul>
+                    </div>
+                    <!-- Sidebar -->
+                </div>
+            </div>
+            <!-- Left Sidebar End -->
+
+            
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-0">Dashboard</h4>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">HIPMI EXPO</a></li>
+                                            <li class="breadcrumb-item active">Dashboard</li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+                        <!-- taruh item dibawah ini -->
+                        <!-- <div class="col-lg-12">
+                            <div class="card border border-warning">
+                                <div class="card-header bg-transparent border-warning">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="my-0 text-warning"><i class="uil uil-exclamation-octagon me-3"></i>Selesaikan Pembayaran Anda</h5>
+                                        <a href="invoices-pending.html" class="btn btn-warning waves-effect waves-light float-end">Selesaikan Pembayaran</a>
+                                    </div>
+                                    <p class="card-text">Tolong Selesaikan pembayaran anda sebelum 12-Desember-2023 23:59:59 <br> Waktu yang tersisa <span class="text-warning"> 43:59:59</span></p>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="col-lg-12">
+                            <div class="card border border-success">
+                                <div class="card-header bg-transparent border-warning">
+                                    <div class="d-flex justify-content-between">
+                                        <h5 class="my-0 text-success"><i class="uil uil-exclamation-octagon me-3"></i>Terima kasih!</h5>
+                                        <a href="invoices-detail.html" class="btn btn-success waves-effect waves-light float-end">Lihat Detail Invoice</a>
+                                    </div>
+                                    <p class="card-text">Terima kasih atas partisipasinya dalam event HIPMI EXPO 2022. Untuk melihat detail event, silakan klik bagian detail event</p>
+                                </div>
+                            </div>
+                        </div> -->
+                        
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="float-end mt-2">
+                                            <div id="total-revenue-chart"></div>
+                                        </div>
+                                        <div>
+                                            <span class="badge invisible"><i class="mdi mdi-crown"></i></span>
+                                            <h4 class="mb-1 mt-1">Rp.<span data-plugin="counterup">100,000</span></h4>
+                                            <p class="text-muted mb-0">Event Seminar & Pameran</p>
+                                            <a href="checkout.html" class=" btn btn-success waves-effect waves-light mt-2">
+                                                Daftar
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- end col-->
+
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="float-end mt-2">
+                                            <div id="orders-chart"> </div>
+                                        </div>
+                                        <div>
+                                            <span class="badge rounded-pill bg-soft-warning text-warning"><i class="mdi mdi-crown"></i> Paling Laku</span>
+                                            <h4 class="mb-1 mt-1">Rp.<span data-plugin="counterup">50,000</span></h4>
+                                            <p class="text-muted mb-0">Event Seminar & Pameran Promo</p>
+                                            <a href="promo_checkout.html" class=" btn btn-success waves-effect waves-light mt-2">
+                                                Daftar
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> <!-- end col-->
+
+                        </div> <!-- end row-->
+
+                        <!-- content row 2 -->
+                        <div class="row mb-4">
+                            <!-- detail profile  -->
+                            <div class="col-md-9">
+                                <div class="card h-100">
+                                    <div class="card-header bg-transparent border-bottom py-3 px-4">
+                                        <h5 class="font-size-16 mb-0 font-bold">Detail Identitas</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="text-left d-flex gap-5">
+                                            <div class="w-25 h-100">
+                                                <img src="assets/images/users/avatar-4.png" alt="" class="avatar-lg rounded-circle img-fluid w-100 h-100">
+                                            </div>
+                                            <div class="user_identity flex-column">
+                                                <h5 class="mt-3 mb-1 fs-1 mb-3">Putu Noah</h5>
+                                                <p class="text-muted">Nama Lengkap : Putu Gede Bagus Ariel Noah</p>
+                                                <p class="text-muted">Email : arielnoah@gmail.com</p>
+                                                <p class="text-muted">Nomor Handphone : 0821464917123</p>
+                                                <p class="text-muted">Status Instansi : Umum</p>
+                                            </div>
+
+                                        </div>
+                                        <hr class="my-4">
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <!-- qr code -->
+                            <div class="col-md-3">
+                                <div class="card h-100">
+                                    <div class="card-header bg-transparent border-bottom py-3 px-4">
+                                        <h5 class="font-size-16 mb-0">QR Code</h5>
+                                    </div>
+                                    <img class="card-img-top img-fluid w-75 mx-auto d-block mt-3" src="assets/images/qr-code.svg" alt="Card image cap">
+                                    <button type="button" class="btn btn-outline-dark waves-effect waves-light px-2 py-1 float-end col-1 mx-3" data-bs-toggle="modal" data-bs-target=".bs-example-modal-center">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                    <div class="card-body">
+                                        
+                                        <div class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered">
+                                                <div class="modal-content">
+                                                    <img class="card-img-top img-fluid mx-auto d-block" src="assets/images/qr-code.svg" alt="Card image cap">
+                                                </div><!-- /.modal-content -->
+                                            </div><!-- /.modal-dialog -->
+                                        </div><!-- /.modal -->
+                                        <p class="card-text text-center">Silakan Scan Kode QR Berikut untuk melakukan Afiliasi</p>
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+
+                            <div class="col-2"></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Transaksi Pending</h4>
+                                            <div class="table-responsive">
+                                                <table class="table table-borderless table-centered table-responsive">
+                                                        <div class="d-flex justify-content-between flex-wrap">
+                                                            <p class="card-text text-muted fw-semibold mb-4 ">Tolong Selesaikan pembayaran anda sebelum 12-Desember-2023 23:59:59 <br> Waktu yang tersisa <span class="text-warning"> 43:59:59</span></p>
+                                                            <a href="invoices-pending.html" class="btn btn-warning h-50 flex-wrap ">Selesaikan Pembayaran</a>
+                                                        </div>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 20px;"><img src="assets/images/users/avatar-10.png" class="avatar-xs rounded-circle " alt="..."></td>
+                                                            <td>
+                                                                <h6 class="font-size-15 mb-1 fw-bold">Seminar & Pameran</h6>
+                                                                <p class="text-muted font-size-13 mb-0"><i class="mdi mdi-clock"></i>Tanggal Event : 10 Juni 2023</p>
+                                                                <p class="text-muted font-size-13 mb-0"><i class="mdi mdi-map-marker"></i>Lokasi Event : Aula ITB Stikom Bali</p>
+                                                            </td>
+                                                            <td class="text-end">
+                                                                <span class="badge bg-soft-warning font-size-12">Menunggu Pembayaran</span>
+                                                                <p class="text-muted fw-semibold mb-0 mt-2">Rp.50,000</p>
+                                                                
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                                
+                                            </div> <!-- enbd table-responsive-->
+                                        
+                                    </div><!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Transaksi Berhasil</h4>
+                                            <div class="table-responsive">
+                                                <table class="table table-borderless table-centered table-responsive">
+                                                        <div class="d-flex justify-content-between flex-wrap">
+                                                            <p class="card-text text-muted fw-semibold mb-4 ">Terima kasih atas partisipasinya dalam event HIPMI EXPO 2023.</p>
+                                                            <a href="invoices-detail.html" class="btn btn-success h-50 flex-wrap ">Detail Pembayaran</a>
+                                                        </div>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 20px;"><img src="assets/images/users/avatar-10.png" class="avatar-xs rounded-circle " alt="..."></td>
+                                                            <td>
+                                                                <h6 class="font-size-15 mb-1 fw-bold">Seminar & Pameran</h6>
+                                                                <p class="text-muted font-size-13 mb-0"><i class="mdi mdi-clock"></i>Tanggal Event : 10 Juni 2023</p>
+                                                                <p class="text-muted font-size-13 mb-0"><i class="mdi mdi-map-marker"></i>Lokasi Event : Aula ITB Stikom Bali</p>
+                                                            </td>
+                                                            <td class="text-end">
+                                                                <span class="badge bg-soft-success font-size-12">Berhasil</span>
+                                                                <p class="text-muted fw-semibold mb-0 mt-2">Rp.50,000</p>
+                                                                
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                                
+                                            </div> <!-- enbd table-responsive-->
+                                        
+                                    </div><!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div>
+                        </div>
+
+                        
+
+                        
+                        
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+                
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <script>document.write(new Date().getFullYear())</script> © HIPMI EXPO.
+                            </div>
+                            <div class="col-sm-6">
+                                <!-- <div class="text-sm-end d-none d-sm-block">
+                                    Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themesbrand.com/" target="_blank" class="text-reset">Themesbrand</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        <!-- Right Sidebar -->
+        <div class="right-bar">
+            <div data-simplebar class="h-100">
+
+                <div class="rightbar-title d-flex align-items-center px-3 py-4">
+            
+                    <h5 class="m-0 me-2">Settings</h5>
+
+                    <a href="javascript:void(0);" class="right-bar-toggle ms-auto">
+                        <i class="mdi mdi-close noti-icon"></i>
+                    </a>
+                </div>
+
+
+
+                <!-- Settings -->
+                <hr class="mt-0" />
+                <h6 class="text-center mb-0">Choose Layouts</h6>
+
+                <div class="p-4">
+                    <div class="mb-2">
+                        <img src="assets/images/layouts/layout-1.jpg" class="img-thumbnail" alt="layout images">
+                    </div>
+                    <div class="form-check form-switch mb-3">
+                        <input type="checkbox" class="form-check-input theme-choice" id="light-mode-switch" checked />
+                        <label class="form-check-label" for="light-mode-switch">Light Mode</label>
+                    </div>
+
+                    <div class="mb-2">
+                        <img src="assets/images/layouts/layout-2.jpg" class="img-thumbnail" alt="layout images">
+                    </div>
+                    <div class="form-check form-switch mb-3">
+                        <input type="checkbox" class="form-check-input theme-choice" id="dark-mode-switch" />
+                        <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
+                    </div>
+
+                    <div class="mb-2">
+                        <img src="assets/images/layouts/layout-3.jpg" class="img-thumbnail" alt="layout images">
+                    </div>
+                    <div class="form-check form-switch mb-3">
+                        <input type="checkbox" class="form-check-input theme-choice" id="rtl-mode-switch" />
+                        <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
+                    </div>
+
+                    <div class="mb-2">
+                        <img src="assets/images/layouts/layout-4.jpg" class="img-thumbnail" alt="layout images">
+                    </div>
+                    <div class="form-check form-switch mb-5">
+                        <input class="form-check-input theme-choice" type="checkbox" id="dark-rtl-mode-switch">
+                        <label class="form-check-label" for="dark-rtl-mode-switch">Dark RTL Mode</label>
+                    </div>
+
+            
+                </div>
+
+            </div> <!-- end slimscroll-menu-->
+        </div>
+        <!-- /Right-bar -->
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+        <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+        <script src="assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.js"></script>
+
+    </body>
+</html>
