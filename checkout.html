@@ -487,7 +487,12 @@
                       <label for="formRadios">
                         <i class="mdi mdi-bank"></i>Pilih Metode Pembayaran
                       </label>
-                      <div class="radio_metodepayment mb-4">
+                      <select class="form-select mb-4">
+                        <option hidden selected>Jenis Seminar</option>
+                        <option value="offline">Offline</option>
+                        <option value="online">Online</option>
+                      </select>
+                      <!-- <div class="radio_metodepayment mb-4">
                         <input
                           class="form-check-input"
                           type="radio"
@@ -502,7 +507,7 @@
                           id="formRadios1"
                         />
                         Offline
-                      </div>
+                      </div> -->
                       <a href="#" class="btn btn-success w-100"
                         ><i class="uil uil-shopping-cart-alt me-1"></i>Bayar Sekarang</a
                       >
