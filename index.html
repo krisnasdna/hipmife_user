@@ -20,6 +20,19 @@
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <style>
+      @media (max-width: 991px) {
+        .dashed-afiliasi-line {
+          border-left: none !important;
+          margin-top: 10px;
+          width: 100%;
+          flex: 1;
+        }
+        .afiliasi_button {
+          width: 100%;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -102,102 +115,6 @@
                 </form>
               </div>
             </div>
-
-            <!-- notification -->
-            <!-- <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="uil-bell"></i>
-                                <span class="badge bg-danger rounded-pill">3</span>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
-                                aria-labelledby="page-header-notifications-dropdown">
-                                <div class="p-3">
-                                    <div class="row align-items-center">
-                                        <div class="col">
-                                            <h5 class="m-0 font-size-16"> Notifications </h5>
-                                        </div>
-                                        <div class="col-auto">
-                                            <a href="#!" class="small"> Mark all as read</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-simplebar style="max-height: 230px;">
-                                    <a href="" class="text-reset notification-item">
-                                        <div class="d-flex align-items-start">
-                                            <div class="flex-shrink-0 me-3">
-                                                <div class="avatar-xs">
-                                                    <span class="avatar-title bg-primary rounded-circle font-size-16">
-                                                        <i class="uil-shopping-basket"></i>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h6 class="mb-1">Your order is placed</h6>
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1">If several languages coalesce the grammar</p>
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="" class="text-reset notification-item">
-                                        <div class="d-flex align-items-start">
-                                            <div class="flex-shrink-0 me-3">
-                                                <img src="assets/images/users/avatar-3.jpg" class="rounded-circle avatar-xs" alt="user-pic">
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h6 class="mb-1">James Lemire</h6>
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1">It will seem like simplified English.</p>
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="" class="text-reset notification-item">
-                                        <div class="d-flex align-items-start">
-                                            <div class="flex-shrink-0 me-3">
-                                                <div class="avatar-xs">
-                                                    <span class="avatar-title bg-success rounded-circle font-size-16">
-                                                        <i class="uil-truck"></i>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h6 class="mb-1">Your item is shipped</h6>
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1">If several languages coalesce the grammar</p>
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="" class="text-reset notification-item">
-                                        <div class="d-flex align-items-start">
-                                            <div class="flex-shrink-0 me-3">
-                                                <img src="assets/images/users/avatar-4.png" class="rounded-circle avatar-xs" alt="user-pic">
-                                            </div>
-                                            <div class="flex-grow-1">
-                                                <h6 class="mb-1">Salena Layfield</h6>
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1">As a skeptical Cambridge friend of mine occidental.</p>
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 1 hours ago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="p-2 border-top">
-                                    <div class="d-grid">
-                                        <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
-                                            <i class="uil-arrow-circle-right me-1"></i> View More..
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
 
             <div class="dropdown d-inline-block">
               <button
@@ -333,6 +250,118 @@
             <!-- end page title -->
 
             <!-- taruh item dibawah ini -->
+            <div
+              class="row d-flex align-content-center justify-content-center"
+              style="
+                background: linear-gradient(
+                  180deg,
+                  rgba(91, 115, 232, 1) 0%,
+                  rgba(91, 115, 232, 1) 65%,
+                  rgba(255, 255, 255, 1) 65%,
+                  rgba(255, 255, 255, 1) 100%
+                );
+              "
+            >
+              <!-- afiliasi -->
+              <div class="col-lg-12 mt-3 px-3">
+                <div class="card">
+                  <div class="card-header bg-transparent border-warning">
+                    <div class="row d-flex justify-content-between align-items-center">
+                      <div class="col-lg-6 left_content">
+                        <h5 class="my-0 text-success d-flex align-items-center">
+                          <i class="mdi mdi-cash me-1 fa-2x"></i>
+                          <p class="mb-0">Affiliasi</p>
+                        </h5>
+                        <p class="card-text">Untuk melihat detail afiliasi silakan tekan tombol</p>
+                      </div>
+                      <div
+                        class="col-lg-6 right_content w-25 dashed-afiliasi-line"
+                        style="border-left: 1px dashed darkgrey"
+                      >
+                        <a
+                          href="invoices-pending.html"
+                          class="btn btn-success waves-effect waves-light float-end py-3 px-4 afiliasi_button"
+                          >Lihat Detail Afiliasi</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- row card -->
+              <div
+                class="row card-group d-flex align-items-stretch justify-content-center gap-3 mt-3"
+              >
+                <!-- card 1 -->
+                <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-50">
+                  <div class="card shadow">
+                    <div class="card-body">
+                      <div class="text-center mx-5 images">
+                        <img
+                          src="https://staging.hipmistikomexpo.com/homepage_assets/images/Seminar.png"
+                          alt=""
+                          width="189"
+                          height="189"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <h5 class="card-title my-3 text-center">Seminar Online</h5>
+                      <!--<p class="p-large text-decoration-line-through"><span
+                                class="gray text-decoration-line-through">Rp. 200.000</span>
+                        </p> -->
+                      <p class="text-sm text-center text-decoration-line-through my-1">
+                        Rp. 200.000
+                      </p>
+                      <div
+                        class="text-center d-flex align-items-start justify-content-center gap-1"
+                      >
+                        <div class="badge bg-success">PROMO</div>
+                        <h4 class="text-center fw-bold">Rp. 100.000</h4>
+                      </div>
+                      <a
+                        class="btn btn-primary waves-effect waves-light w-100 mt-3"
+                        href="https://staging.hipmistikomexpo.com/detail/1"
+                        >Beli Sekarang</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-50">
+                  <div class="card shadow">
+                    <div class="card-body">
+                      <div class="text-center mx-5 images">
+                        <img
+                          src="https://staging.hipmistikomexpo.com/homepage_assets/images/Seminar.png"
+                          alt=""
+                          width="189"
+                          height="189"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <h5 class="card-title my-3 text-center">Seminar Offline</h5>
+                      <!--<p class="p-large text-decoration-line-through"><span
+                                class="gray text-decoration-line-through">Rp. 200.000</span>
+                        </p> -->
+                      <p class="text-sm text-center text-decoration-line-through my-1">
+                        Rp. 200.000
+                      </p>
+                      <div
+                        class="text-center d-flex align-items-start justify-content-center gap-1"
+                      >
+                        <div class="badge bg-success">PROMO</div>
+                        <h4 class="text-center fw-bold">Rp. 100.000</h4>
+                      </div>
+                      <a
+                        class="btn btn-primary waves-effect waves-light w-100 mt-3"
+                        href="https://staging.hipmistikomexpo.com/detail/1"
+                        >Beli Sekarang</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- <div class="col-lg-12">
                             <div class="card border border-warning">
                                 <div class="card-header bg-transparent border-warning">
@@ -343,7 +372,7 @@
                                     <p class="card-text">Tolong Selesaikan pembayaran anda sebelum 12-Desember-2023 23:59:59 <br> Waktu yang tersisa <span class="text-warning"> 43:59:59</span></p>
                                 </div>
                             </div>
-                        </div> -->
+                  </div> -->
 
             <!-- <div class="col-lg-12">
                             <div class="card border border-success">
