@@ -370,22 +370,12 @@
                         Komisi Per Transaksi : <span class="text-danger"> Rp.5000</span>
                       </p>
                       <div class="mb-3 row">
-                        <div class="col-md-10">
-                          <input
-                            class="form-control"
-                            type="text"
-                            value="INIKODEAFILIASIARIEL"
-                            id="kodeafiliasi"
-                            disabled
-                          />
+                        <div class="col-md-12 col-12">
+                          <div class="input-group">
+                            <input type="text" class="form-control w-80" value="INIKODEAFILIASIARIEL" id="kodeafiliasi" disabled aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="clickFunction()"><i class="mdi mdi-content-copy"></i> Salin link</button>
+                          </div>
                         </div>
-                        <button
-                          type="button"
-                          class="col-lg-2 float-end btn btn-secondary waves-effect waves-light"
-                          onclick="clickFunction()"
-                        >
-                          <i class="mdi mdi-content-copy"></i> Salin Kode
-                        </button>
                       </div>
                     </div>
                   </div>
@@ -574,7 +564,7 @@
                         </tr>
                         <tr>
                           <td>
-                            <label for="namaRekening">Rekening AtasNama</label>
+                            <label for="namaRekening">Rekening Atas Nama</label>
                             <input
                               class="form-control w-100"
                               type="text"
