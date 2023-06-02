@@ -25,6 +25,12 @@
         background: white;
         border-radius: 0px 10px 10px 0px;
       }
+      .kupon{
+        border: 1px solid orange;
+        background: orange;
+        border-radius: 10px;
+        width: 65%;
+      }
       @media (max-width: 992px) {
         .dashed-afiliasi-line {
           border-left: none !important;
@@ -39,6 +45,9 @@
           background: white;
           border-radius: 0px 0px 10px 10px;
         }
+        .kupon{
+          width: 100%;
+        }
       }
       .mt-min-15{
         margin-top: -15px;
@@ -46,11 +55,6 @@
       .br-side{
         border-radius: 0px 0px 0px 30px;
         font-size: 13px;
-      }
-      .kupon{
-        border: 1px solid orange;
-        background: orange;
-        border-radius: 10px;
       }
     </style>
   </head>
@@ -331,15 +335,15 @@
 
             <!-- Kupon diskon -->
             <div class="row justify-content-center mb-5">
-              <div class="col-12 kupon w-75 shadow ">
+              <div class="col-12 kupon">
                   <div class="row justify-content-center align-items-center ">
                       <div class="col-12 col-md-12 col-lg-3 text-center">
-                              <h6 class="text-white my-3 my-lg-0 ">Voucher Potongan</h6>
-                              <h4 class="text-white">Rp 20.000</h4>
+                            <h6 class="text-white my-3 my-lg-0 ">Voucher Potongan</h6>
+                            <h4 class="text-white">Rp 20.000</h4>
                       </div>
                       <div class="col-12 col-md-12 col-lg-9 potongan-text">
                           <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
-                              <div class="text-lg-start text-center me-4">
+                              <div class="text-lg-start text-center me-3">
                                   <p class="pt-3 mb-2">Selamat Kamu Mendapatkan Voucher Potongan Harga Dari<span class="text-danger"> Murapay </span> !</p>
                                   <p class="text-muted"><Small><em>Ambil voucher sekarang juga, khusus untuk 100 orang pertama.</em></Small></p>
                               </div>
