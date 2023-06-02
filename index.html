@@ -21,7 +21,11 @@
     <!-- App Css-->
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
     <style>
-      @media (max-width: 991px) {
+      .potongan-text{
+        background: white;
+        border-radius: 0px 10px 10px 0px;
+      }
+      @media (max-width: 992px) {
         .dashed-afiliasi-line {
           border-left: none !important;
           margin-top: 10px;
@@ -31,6 +35,10 @@
         .afiliasi_button {
           margin-top: 20px;
         }
+        .potongan-text{
+          background: white;
+          border-radius: 0px 0px 10px 10px;
+        }
       }
       .mt-min-15{
         margin-top: -15px;
@@ -38,6 +46,11 @@
       .br-side{
         border-radius: 0px 0px 0px 30px;
         font-size: 13px;
+      }
+      .kupon{
+        border: 1px solid orange;
+        background: orange;
+        border-radius: 10px;
       }
     </style>
   </head>
@@ -315,6 +328,30 @@
                   </div>
                 </div>
               </div>
+
+            <!-- Kupon diskon -->
+            <div class="row justify-content-center mb-5">
+              <div class="col-12 kupon w-75 shadow ">
+                  <div class="row justify-content-center align-items-center ">
+                      <div class="col-12 col-md-12 col-lg-3 text-center">
+                              <h6 class="text-white my-3 my-lg-0 ">Voucher Potongan</h6>
+                              <h4 class="text-white">Rp 20.000</h4>
+                      </div>
+                      <div class="col-12 col-md-12 col-lg-9 potongan-text">
+                          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+                              <div class="text-lg-start text-center me-4">
+                                  <p class="pt-3 mb-2">Selamat Kamu Mendapatkan Voucher Potongan Harga Dari<span class="text-danger"> Murapay </span> !</p>
+                                  <p class="text-muted"><Small><em>Ambil voucher sekarang juga, khusus untuk 100 orang pertama.</em></Small></p>
+                              </div>
+                              <div class="button mb-3 mb-lg-0">
+                                  <a class="btn btn-primary waves-effect waves-light w-100 " href="https://murapay.hipmistikomexpo.com">Ambil!</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- End Kupon diskon -->
               <!-- row card -->
               <div
                 class="row card-group d-flex align-items-stretch justify-content-center mt-3"
